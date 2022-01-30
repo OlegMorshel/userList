@@ -11,9 +11,9 @@ I think that some company can use this web site to save users data and to use it
 * *CSS (SCSS)*
 * *React router dom* 
 
-It was a good project for me because I could work with **Hooks**, **routing**, **form** and **SCSS**.
+It was a good project for me because I could work with **Hooks**, **routing**, **form**, **react-toastify** and **SCSS**.
 
-*You can use my project to click this [link](https://olegmorshel.github.io/)*...
+*You can use my project to click this [link](https://olegmorshel.github.io/userList/)*...
 
 
 
