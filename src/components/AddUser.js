@@ -40,14 +40,12 @@ const AddUser = () => {
       return toast.error("This name already Exists");
     }
 
-
     const data = {
       id: userlist.length ,
       name,
       email,
       number,
     };
-
 
     dispatch({ type: ADD_USER, payload: data });
     toast.success("User added succcessfully!");
