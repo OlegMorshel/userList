@@ -1,0 +1,19 @@
+.navbar {
+  max-height: 100px;
+  height: 100%;
+  text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+  &__link {
+    height: 100%;
+		padding: 10px 25px;
+    font-size: 30px;
+		display: inline-block;
+		border-radius: 10px;
+			background-color: rgb(225, 224, 224);
+			transition: all .24s ease-in ;
+		&:hover{
+			background-color: silver;
+		}
+  }
+}

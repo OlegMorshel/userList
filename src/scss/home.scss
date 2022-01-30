@@ -1,0 +1,98 @@
+.home {
+  &__addbtn {
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: 0;
+    left: 50px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    background-color: rgb(255, 255, 53);
+    border-radius: 5px;
+    border: 1px solid #615e5e;
+  }
+  &__add {
+    color: #615e5e;
+  }
+  &__content {
+  }
+  &__table {
+    margin: 0 auto;
+    text-align: center;
+    table-layout: fixed;
+    width: 60%;
+    border-collapse: collapse;
+    border: 2px solid rgb(90, 90, 90);
+  }
+  &__title {
+    font-size: 24px;
+    padding: 5px 10px;
+    border-bottom: 1px solid rgb(90, 90, 90);
+    border-right: 1px solid rgb(90, 90, 90);
+    &:last-child {
+      border-right: none;
+    }
+  }
+
+  &__thead tr {
+    &:nth-child(1) {
+      width: 20%;
+    }
+    &:nth-child(2) {
+      width: 20%;
+    }
+    &:nth-child(3) {
+      width: 20%;
+    }
+    &:nth-child(4) {
+      width: 20%;
+    }
+    &:nth-child(5) {
+      width: 20%;
+    }
+  }
+  &__edit {
+  }
+  &__delete {
+    cursor: pointer;
+  }
+  &__tr {
+    height: 50px;
+    line-height: 50px;
+  }
+  &__tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  &__td {
+    border-right: 1px solid rgb(90, 90, 90);
+    padding: 5px;
+  }
+  &__edit {
+    padding: 0px 5px;
+    line-height: 22px;
+    background-color: seagreen;
+    border-radius: 5px;
+    margin-right: 5px;
+    color: #f2f2f2;
+  }
+  &__delete {
+    padding-top: 5px;
+    height: 100%;
+    background-color: rgb(230, 78, 78);
+    border: none;
+    border-radius: 5px;
+    color: #f2f2f2;
+  }
+  &__btns {
+    vertical-align: middle;
+  }
+}
+
+.red {
+  background-color: rgb(189, 48, 48);
+  color: #f2f2f2;
+  padding-bottom: 8px;
+  border-radius: 5px;
+}
